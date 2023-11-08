@@ -20,13 +20,6 @@ class Model:
         self.model = None
         self.bpe = None
         self.label_map = {
-            0: 'Enjoyment',
-            1: 'Sadness',
-            2: 'Disgust',
-            3: 'Anger',
-            4: 'Fear',
-            5: 'Surprise',
-            6: 'Other',
         }
 
     def load_model(self, model_path, bpe_path, dict_path):
